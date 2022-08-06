@@ -83,3 +83,57 @@ header > .header-inner > ul {
 .news-contents > .news-item > .news-date > p:nth-of-type(1) {
   margin-right: 50px;
 }
+
+.contact-contents {
+  margin: 0 auto;
+  width: 960px;
+  padding: 0 66px 66px;
+}
+.contact-contents > h2 {
+  text-align: center;
+  margin-bottom: 65px;
+}
+.contact-contents .name {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.contact-contents .name > p {
+  margin-right: 40px;
+}
+.contact-contents .name > .text-box {
+  width: 712px;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+.sent {
+  margin: 30px auto 0;
+  width: 200px;
+  height: 54px;
+  line-height: 54px;
+  text-align: center;
+}
+.sent > input {
+  width: 100%;
+  height: 100%;
+  background-color: #25292f;
+  color: white;
+}
+.sent > input:hover {
+  background-color: white;
+  color: #25292f;
+  border: 1px solid #25292f;
+}
+
+footer {
+  margin: 0 auto;
+  background-color: #25292f;
+  height: 35px;
+}
+footer > div {
+  text-align: center;
+  color: white;
+  font-size: 10px;
+  line-height: 35px;
+}
