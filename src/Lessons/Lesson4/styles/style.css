@@ -28,7 +28,7 @@ header > .header-inner > ul {
 .about-contents {
   margin: 0 auto;
   width: 960px;
-  padding-bottom: 66px;
+  padding: 0 66px 66px;
 }
 .about-contents > h2 {
   text-align: center;
@@ -60,4 +60,26 @@ header > .header-inner > ul {
 .works-contents > .photo > div {
   width: 256px;
   height: 166px;
+}
+
+.news-contents {
+  width: 960px;
+  margin: 0 auto;
+}
+.news-contents > h2 {
+  text-align: center;
+  margin: 120px 0 65px 0;
+}
+.news-contents > .news-item {
+  padding: 0 66px 66px;
+}
+.news-contents > .news-item > hr {
+  border: 1px solid #000;
+}
+.news-contents > .news-item > .news-date {
+  display: flex;
+  padding: 15px;
+}
+.news-contents > .news-item > .news-date > p:nth-of-type(1) {
+  margin-right: 50px;
 }
