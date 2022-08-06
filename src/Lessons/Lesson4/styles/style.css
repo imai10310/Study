@@ -24,3 +24,40 @@ header > .header-inner > ul {
   list-style: none;
   align-items: center;
 }
+
+.about-contents {
+  margin: 0 auto;
+  width: 960px;
+  padding-bottom: 66px;
+}
+.about-contents > h2 {
+  text-align: center;
+  margin: 80px 0 65px 0;
+}
+.about-contents p:nth-of-type(1) {
+  margin-bottom: 30px;
+}
+.about-contents p:nth-of-type(2) {
+  margin-bottom: 30px;
+}
+
+.works-contents {
+  margin: 0 auto;
+  width: 960px;
+}
+.works-contents > h2 {
+  text-align: center;
+  margin-bottom: 60px;
+}
+.works-contents > .photo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.works-contents > .photo > div {
+  width: 256px;
+  height: 166px;
+}
