@@ -1,0 +1,79 @@
+.main-visual {
+  height: 834px;
+  background-image: url("../images/mainvisual.jpg");
+  margin-bottom: 80px;
+}
+
+.start {
+  margin: 0 auto;
+  width: 1200px;
+  padding: 0 74px;
+  margin: 0 140px 80px;
+  color: #2a2a2a;
+}
+.start h2 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  letter-spacing: -1px;
+  text-align: center;
+}
+.start p {
+  font-family: "Arial", "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Meiryo", sans-serif;
+}
+.start .massage {
+  width: 1052px;
+  text-align: center;
+}
+.start .massage p {
+  font-size: 14px;
+}
+@media screen and (max-width: 300px) {
+  .start .massage p {
+    font-size: 10px;
+  }
+}
+
+.pic-two {
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 1000px) {
+  .pic-two {
+    flex-direction: column;
+  }
+}
+.pic-two .mywork-pic {
+  height: 506px;
+  width: 506px;
+  position: relative;
+  margin-top: 40px;
+}
+.pic-two .mywork-pic .text-inner {
+  background-color: rgba(0, 0, 0, 0.2);
+  width: 290px;
+  height: 97px;
+  padding: 15px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+.pic-two .mywork-pic .text-inner p {
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.pic-two .mywork-pic .text-inner p:nth-of-type(1) {
+  font-size: 20px;
+}
+.pic-two .mywork-pic .text-inner p:nth-of-type(2) {
+  font-size: 14px;
+}
+
+.fashion-style {
+  background-image: url(../images/fashion.jpg);
+  height: 520px;
+}
